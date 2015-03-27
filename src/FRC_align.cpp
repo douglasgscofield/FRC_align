@@ -143,6 +143,8 @@ int main(int argc, char *argv[]) {
 		estimatedGenomeSize = 0;
 	}
 
+        // DOUG: initiate Fasta object here, also add Fasta.cpp and Fasta.h to data_structures/
+
 	//TODO: PARSING ENDED, CREATE A FUNCTION FOR IT
 	uint64_t genomeLength = 0;
 	uint32_t contigsNumber = 0;
